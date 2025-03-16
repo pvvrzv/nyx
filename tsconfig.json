@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": [
+      "vite/client"
+    ],
+    "target": "ES2017",
+    "module": "ES2020",
+    "removeComments": false,
+    "declaration": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2017",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    /* Linting */
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "paths": {
+      "@build": [
+        "./build"
+      ],
+      "@lib": [
+        "./lib"
+      ],
+      "@lib/*": [
+        "./lib/*"
+      ],
+    }
+  },
+  "include": [
+    "./lib",
+  ],
+}

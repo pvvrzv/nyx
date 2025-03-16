@@ -1,0 +1,19 @@
+{
+  "name": "@pvvrzv/nyx",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./build/index.d.ts",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "bench": "vitest bench"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  }
+}

@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client"],
     "target": "ES2017",
     "module": "ES2020",
     "removeComments": false,
     "declaration": true,
     "skipLibCheck": true,
-    "lib": [
-      "ES2017",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ES2017", "DOM", "DOM.Iterable"],
     /* Bundler mode */
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
@@ -33,18 +27,10 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "paths": {
-      "@build": [
-        "./build"
-      ],
-      "@lib": [
-        "./lib"
-      ],
-      "@lib/*": [
-        "./lib/*"
-      ],
+      "@build": ["./build"],
+      "@lib": ["./lib"],
+      "@lib/*": ["./lib/*"]
     }
   },
-  "include": [
-    "./lib",
-  ],
+  "include": ["./lib"]
 }
